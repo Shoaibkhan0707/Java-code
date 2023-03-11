@@ -1,0 +1,7 @@
+public interface mylist<E>{
+	boolean add(E e);
+	void traverse(node<E>head);
+	void firstnode(E e,int pos);
+	void lastnode(node<E>head);
+	void randomadd(node<E>head);
+}

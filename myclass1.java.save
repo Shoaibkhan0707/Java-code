@@ -1,0 +1,9 @@
+package mypkg;
+public class myclass1{
+	public void printer(){
+		System.out.println("print method");
+	}
+	static {
+		System.out.println("static block");
+	}
+}
